@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>photodesk</title>
+    <link rel="stylesheet" href="/style.css">
+    <script src="app.js"></script>
+</head>
+
+<body>
+    <div class="loader" id="loader">
+        <p>Chargement...</p>
+    </div>
+    <header>
+        <div class="logo">
+            <p><a href="#">Photodesk</a></p>
+        </div>
+        <ul class="menu">
+            <li><a href="#populaire">populaire</a></li>
+            <li><a href="#gallery">gallery</a></li>
+            <li><a href="#Contact">Contact</a></li>
+        </ul>
+    </header>
+    <div class="main">
+        <section id="gallery">
+            <div class="text-gallery">
+                <div class="a">
+                    <p>Vos albums</p>
+                </div>
+                <div class="separateur-album"></div>
+                <div class="b">
+                    <p>Vous retrouverez ici tous vos albums <br> photos </p>
+                    <div class="separateur-1"></div>
+                    <p>Une sélection de vos albums <br>
+                        est réalisé pour les faire apparaître sur  <br>l'écran d'accueil. Et certain 
+                        albums populaire <br> de la communauté apparaîtront </p>
+                    <div class="separateur-2"></div>
+                    <p>Vous pourrez vous inspirer pour vos <br> futur photo dans l'onglet populaire </p>
+                    <p>Vous y retrouverez les albums les plus <br> esthétique de la communauté </p>
+                    
+                </div>
+            </div>
+            <div class="Desert">
+                <img class="image" src="./img/wallpapersden.com_desert-4k_2048x1152.jpg" alt="desert" width="400px" height="400px">
+            </div>
+            <div class="gris">
+                <img class="image2" src="./img/Road-sunset_2560x1600.jpg" alt="gris"  width="600px" height="600px">
+            </div>
+        </section>
+        <div class="separateur"></div>
+        <section id="Contact" class="Contact">
+            <h2 class="title-category">Contact</h2>
+            <div class="form-contact-container">
+                <form action="https://formspree.io/f/mregkewo" method="POST" class="form-contact">
+                    <div class="form-top">
+                        <div class="form-left">
+                            <div><label for="nom">Nom</label>
+                                <input autocomplete="off" type="text" name="nom" placeholder="Thomas Libe">
+                            </div>
+                            <div><label for="email">E-mail</label>
+                                <input autocomplete="off" type="email" name="email" placeholder="Thomaslibe@gmail.com">
+                            </div>
+                        </div>
+                        <div class="form-right">
+                            <label for="message">Votre Message</label>
+                            <textarea autocomplete="off" name="message" cols="30" rows="5"
+                                placeholder="Je vous contact pour...."></textarea>
+                        </div>
+                    </div>
+                    <div class="form-bottum">
+                        <input type="submit" name="envoyer" value="envoyer">
+                    </div>
+                </form>
+            </div>
+        </section>
+        <div class="separateur"></div>
+        <h2 class="title-category">Commentaire</h2>
+        <div class="commentaire">
+            <img src="./img/utilisateur_318-159711.avif" alt="photo de profil" class="commentaire-pp">
+            <div class="commentaire-text">
+                <h3 class="commentaire-nom">Pierre dupont</h3>
+                <p class="commentaire-message">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint molestiae 
+                    consectetur eos, repellat iste voluptate pariatur consequatur fuga officiis? 
+                    Non voluptates dolorem nemo nisi magnam possimus harum exercitationem nostrum 
+                    corporis dolor architecto quasi facere, hic, alias esse libero. Eligendi sed 
+                    deleniti hic laborum at quae maiores voluptatibus vitae officiis dolores.
+                </p>
+            </div>
+        </div>
+        <div class="commentaire">
+            <img src="./img/utilisateur_318-159711.avif" alt="photo de profil" class="commentaire-pp">
+            <div class="commentaire-text">
+                <h3 class="commentaire-nom">Jean-Charles Skarbowsky</h3>
+                <p class="commentaire-message">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint molestiae 
+                    consectetur eos, repellat iste voluptate pariatur consequatur fuga officiis? 
+                    Non voluptates dolorem nemo nisi magnam possimus harum exercitationem nostrum 
+                    corporis dolor architecto quasi facere, hic, alias esse libero. Eligendi sed 
+                    deleniti hic laborum at quae maiores voluptatibus vitae officiis dolores.
+                </p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <h2>Création Arthur</h2>
+    </footer>
+
+
+    
+</body>
+</html>
